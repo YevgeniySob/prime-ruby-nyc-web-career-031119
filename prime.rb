@@ -5,7 +5,7 @@ def prime?(num)
   elsif num == 2 || num == 3
     return true
   end
-  for i in 2..num
+  for i in 2..(num/2)
     if num%i == 0
       return false
     else
@@ -17,5 +17,11 @@ def prime?(num)
     end
   end
 end
+
+for d in 2..(n - 1)
+   if (n % d) == 0
+    return false
+   end
+  end
 
 prime?(39)

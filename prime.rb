@@ -12,7 +12,7 @@ def prime?(num)
       puts num
       puts i
       puts "hey"
-      puts num/i
+      puts num%i
       return true
     end
   end

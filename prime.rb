@@ -24,4 +24,4 @@ end
 #   end
 #   end
 
-prime?(39)
+prime?(40)

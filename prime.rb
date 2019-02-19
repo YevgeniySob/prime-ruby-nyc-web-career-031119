@@ -8,14 +8,9 @@ def prime?(num)
   for i in 2..(num/2)
     if num%i == 0
       return false
-    else
-      puts num
-      puts i
-      puts "hey"
-      puts num%i
-      return true
     end
   end
+  true
 end
 
 # for d in 2..(n - 1)
